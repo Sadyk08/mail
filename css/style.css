@@ -1,0 +1,248 @@
+@import url(//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css);
+.navbar.navbar-1 .navbar-toggler-icon {
+  background-image: url("https://mdbootstrap.com/img/svg/hamburger6.svg?color=000"); }
+
+.navbar-light .navbar-toggler {
+  border: none;
+  outline: none; }
+
+.navbar-brand {
+  text-transform: uppercase;
+  letter-spacing: 1px; }
+
+.web-development-bg {
+  background-image: url(../images/head-picture.png);
+  min-height: 810px;
+  width: 100%;
+  background-size: cover; }
+
+.web-development {
+  padding-top: 200px;
+  text-align: center; }
+  .web-development h1 {
+    font-size: 60px; }
+  .web-development p {
+    font-size: 20px; }
+  .web-development a {
+    text-transform: uppercase;
+    padding: 20px;
+    margin-top: 80px; }
+    .web-development a:hover {
+      border: none;
+      transition: 1s;
+      background-color: #00897b; }
+
+.our-team {
+  min-height: 1095px;
+  width: 100%; }
+
+.team h1 {
+  text-align: center;
+  margin-top: 125px; }
+.team p {
+  text-align: center; }
+
+.team-photo {
+  margin-top: 130px; }
+  .team-photo h5 {
+    text-align: center; }
+  .team-photo h6 {
+    text-align: center; }
+  .team-photo .icons {
+    background-color: #f0f1f1;
+    font-size: 28px;
+    line-height: 50px;
+    display: inline-block;
+    width: 50px;
+    margin: auto;
+    text-align: center; }
+    .team-photo .icons:hover {
+      color: white;
+      background-color: #3949ab;
+      transition: 1.5s;
+      transform: scale(1.1); }
+    .team-photo .icons i {
+      line-height: 50px; }
+
+.contact {
+  background-image: url(../images/footer-bg.png);
+  min-height: 1250px;
+  width: 100%;
+  background-size: cover; }
+  .contact .contact-us h1 {
+    text-align: center;
+    padding-top: 128px; }
+  .contact .contact-us p {
+    text-align: center; }
+
+.contact-photos {
+  text-align: center;
+  margin-top: 100px; }
+
+.col-md-8 {
+  margin-top: 80px; }
+  .col-md-8 .form-inline .form-group {
+    width: 49%; }
+    .col-md-8 .form-inline .form-group input {
+      margin-bottom: 30px;
+      height: 60px; }
+  .col-md-8 .form-inline textarea {
+    width: 98%;
+    height: 320px;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: none;
+    resize: none; }
+
+.carousel-indicators {
+  bottom: -155px; }
+  .carousel-indicators li {
+    text-indent: 0;
+    margin: 9px;
+    width: 15px;
+    height: 15px;
+    border: none;
+    line-height: 30px;
+    color: #fff;
+    background-color: #00897b;
+    transition: all 0.25s ease;
+    list-style: none; }
+    .carousel-indicators li.active, .carousel-indicators li:hover {
+      margin: 0 2px;
+      width: 30px;
+      height: 30px;
+      background-color: #3949ab; }
+
+.animate {
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out; }
+
+/*=============== Home-team ===============*/
+.home-doctors {
+  text-align: center;
+  padding: 70px 0 80px;
+  background: #f0f5f6; }
+
+.home-doctors h2 {
+  font-weight: normal; }
+
+.home-doctors .common-doctor {
+  background-color: #fff; }
+
+.home-doctors .common-doctor figure {
+  overflow: hidden;
+  width: 100%;
+  height: 196px; }
+
+.home-doctors img {
+  width: 100%;
+  height: auto;
+  margin-top: -6em; }
+
+.home-doctors .common-doctor h5 {
+  margin: 0 0 7px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #3a3c41; }
+
+.home-doctors .common-doctor .for-border {
+  margin-bottom: 20px; }
+
+.home-doctors .common-doctor .text-content {
+  padding: 19px 14px 13px; }
+
+.home-doctors.doctors-var-two {
+  text-align: left;
+  background-color: #fff; }
+
+.home-doctors.doctors-var-two .slogan-section {
+  text-align: left; }
+
+.home-doctors.doctors-var-two .common-doctor {
+  background-color: transparent; }
+
+.home-doctors.doctors-var-two .common-doctor .for-border {
+  display: none; }
+
+.home-doctors.doctors-var-two .common-doctor .text-content {
+  padding: 20px 0 20px; }
+
+.home-doctors.doctors-var-two .text-center {
+  text-align: left; }
+
+.slogan-section {
+  margin-bottom: 50px;
+  text-align: center; }
+
+.home-doctors .common-doctor .for-border {
+  margin-bottom: 20px; }
+
+.for-border {
+  height: 11px;
+  width: 100%;
+  background: transparent url(http://omarhabash.com/nova/wp-content/uploads/2014/08/feature-border.png) center center no-repeat;
+  border: none; }
+
+.home-doctors .common-doctor h5 small {
+  color: #008fd5;
+  font-weight: bold;
+  font-size: 0.8em;
+  font-style: italic; }
+
+.home-doctors .common-doctor ul {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  margin-top: -28px;
+  text-align: center;
+  margin-top: 10em;
+  opacity: 0;
+  z-index: 1; }
+
+.home-doctors .common-doctor li a {
+  background: #008fd5;
+  color: white;
+  padding: 0.75em;
+  border: 5px solid rgba(255, 255, 255, 0.33); }
+
+.doc-img {
+  /* Webkit for Chrome and Safari */
+  -webkit-transform: scale(1, 1);
+  -webkit-transition-duration: 500ms;
+  -webkit-transition-timing-function: ease-out;
+  /* Webkit for Mozila Firefox */
+  -moz-transform: scale(1, 1);
+  -moz-transition-duration: 500ms;
+  -moz-transition-timing-function: ease-out;
+  /* Webkit for IE( Version: 11, 10 ) */
+  -ms-transform: scale(1, 1);
+  -ms-transition-duration: 500ms;
+  -ms-transition-timing-function: ease-out; }
+
+.doc-item:hover .doc-img {
+  /* Webkit for Chrome and Safari */
+  -webkit-transform: scale(1.1, 1.1);
+  -webkit-transition-duration: 500ms;
+  -webkit-transition-timing-function: ease-out;
+  /* Webkit for Mozila Firefox */
+  -moz-transform: scale(1.2, 1.2);
+  -moz-transition-duration: 500ms;
+  -moz-transition-timing-function: ease-out;
+  /* Webkit for IE( Version: 11, 10 ) */
+  -ms-transform: scale(1.2, 1.2);
+  -ms-transition-duration: 500ms;
+  -ms-transition-timing-function: ease-out;
+  opacity: 0.7; }
+
+.doc-item:hover .social-lists {
+  margin-top: -250px;
+  position: relative;
+  z-index: 3;
+  opacity: 1; }
+
+/*# sourceMappingURL=style.css.map */
